@@ -1,0 +1,22 @@
+html {
+  overflow-y: auto !important;
+}
+.v-btn {
+  text-transform: capitalize !important;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.border {
+  border: 1px solid rgb(158, 158, 158);
+}
+
+.table-stripe {
+  tr:nth-of-type(even) {
+    td {
+      background: rgba(128, 128, 128, 0.15);
+    }
+  }
+}
